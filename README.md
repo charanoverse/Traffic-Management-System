@@ -2,14 +2,9 @@
 
 <div align="center">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
-[![React](https://img.shields.io/badge/React-18.0+-61DAFB.svg)](https://react.dev/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-5.0+-13AA52.svg)](https://www.mongodb.com/)
 
 An intelligent traffic signal optimization system that leverages **AI and computer vision** to reduce congestion and improve traffic flow in real-time.
 
-[Report Bug](https://github.com/charanoverse/Traffic-Management-System/issues) • [Request Feature](https://github.com/charanoverse/Traffic-Management-System/issues)
 
 </div>
 
@@ -25,8 +20,7 @@ An intelligent traffic signal optimization system that leverages **AI and comput
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Configuration](#-configuration)
-- [License](#-license)
-- [Contact](#-contact)
+
 
 ---
 
@@ -208,9 +202,7 @@ JWT_SECRET=your_jwt_secret_key
 
 Start the backend:
 ```bash
-npm start
-# or for development with auto-reload
-npm run dev
+node server.js
 ```
 
 ### Step 3: Frontend Setup
@@ -348,45 +340,5 @@ signal:
 - `GET /api/analytics/trends` - Get traffic trends
 - `GET /api/analytics/predictions` - Get traffic predictions
 
-For detailed API documentation, see `Backend/README.md`
 
 ---
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📧 Contact
-
-- **Project Lead**: [charanoverse](https://github.com/charanoverse)
-- **GitHub**: [Traffic-Management-System](https://github.com/charanoverse/Traffic-Management-System)
-- **Issues**: [Bug Reports & Feature Requests](https://github.com/charanoverse/Traffic-Management-System/issues)
-
----
-
-## 🙏 Acknowledgments
-
-- OpenCV for computer vision capabilities
-- PSO algorithm for optimization
-- MongoDB for reliable data storage
-- React community for excellent documentation
-- All contributors and supporters
-
----
-
-## 📚 Additional Resources
-
-- [OpenCV Documentation](https://docs.opencv.org/)
-- [PSO Algorithm Tutorial](https://en.wikipedia.org/wiki/Particle_swarm_optimization)
-- [MERN Stack Guide](https://www.mongodb.com/mern-stack)
-- [Traffic Engineering Principles](https://en.wikipedia.org/wiki/Traffic_engineering_(transportation))
-
----
-
-<div align="center">
-
-**⭐ If you find this project helpful, please consider giving it a star!**
-
-</div>
