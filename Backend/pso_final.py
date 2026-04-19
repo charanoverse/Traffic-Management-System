@@ -2,7 +2,7 @@ import json
 import numpy as np
 import pandas as pd
 
-data = pd.read_csv('C:/Users/Admin/Desktop/Traffic Management System/ML Model/outputs/combined_traffic_data.csv')
+data = pd.read_csv('F:/Traffic Management System/ML Model/outputs/combined_traffic_data.csv')
 
 # PSO parameters
 num_particles = 40

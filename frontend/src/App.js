@@ -1,14 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import TrafficSignalStatus from "./TrafficSignalStatus";
-import MetricsDisplay from './MetricsDisplay';
+import Dashboard from "./components/Dashboard";
+import "./index.css";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<TrafficSignalStatus />} />
-        <Route path="/metrics" element={<MetricsDisplay />} />
+        <Route path="/" element={<Dashboard />} />
       </Routes>
     </Router>
   );

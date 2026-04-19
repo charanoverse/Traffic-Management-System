@@ -13,7 +13,7 @@ app.use(cors());
 
 // MongoDB connection
 mongoose.connect(
-  "mongodb+srv://sricharankolachalama:Charan05@cluster0.wfgb0zu.mongodb.net/traffic_management?retryWrites=true&w=majority",
+  "mongodb://localhost:27017/",
   {}
 );
 
@@ -22,7 +22,7 @@ db.on("error", console.error.bind(console, "Connection error:"));
 db.on("disconnected", () => {
   console.error("MongoDB disconnected. Attempting to reconnect...");
   mongoose.connect(
-    "mongodb+srv://sricharankolachalama:Charan05@cluster0.wfgb0zu.mongodb.net/traffic_management?retryWrites=true&w=majority",
+    "mongodb://localhost:27017/",
     {}
   );
 });
@@ -45,7 +45,7 @@ const runPSOFinal = () => {
 // Save traffic data to MongoDB
 const saveDataToMongoDB = async () => {
   try {
-    const rawData = fs.readFileSync("C:/Users/Admin/Desktop/Traffic Management System/Backend/traffic_data.json");
+    const rawData = fs.readFileSync("F:/Traffic Management System/Backend/traffic_data.json");
     const trafficData = JSON.parse(rawData);
 
     await Signal.deleteMany({});
