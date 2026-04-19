@@ -177,9 +177,9 @@ React Dashboard (Live Visualization)
 
 ---
 
-## 📸 Screenshots
+## 📸 Demo
 
-> *(Add dashboard screenshots or demo GIFs here)*
+
 
 ![alt text](./frontend/public/demo.gif)
 
